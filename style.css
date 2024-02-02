@@ -21,6 +21,10 @@
 
 body {
     background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #timebox{
@@ -31,7 +35,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: calc(var(--timebox-height) / 2);
-	width: var(gamebox-width);
+	width: var(--gamebox-width);
 }
 
 #gamebox{
